@@ -1,4 +1,4 @@
-pumasfc.github.io
+pumasfc.github.com
 =================
 
 soccer organization 
