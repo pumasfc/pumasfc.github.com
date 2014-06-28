@@ -136,51 +136,6 @@ footer nav ul li {
 }
 
 
-/*
- * _mobile.scss
- 
-*/
-@media mobile, screen and (max-width: 550px) {
-  /* phones */
-  /* line 12, ../sass/_mobile.scss */
-  header {
-    height: 35em;
-  }
-  /* line 15, ../sass/_mobile.scss */
-  header h1 {
-    line-height: .9em;
-    margin: 0 auto;
-    width: 80%;
-  }
-  /* line 21, ../sass/_mobile.scss */
-  header h2 {
-    margin: 20px auto 0 auto;
-    width: 300px;
-  }
-
-
-
- footer nav ul li {
-		float:left;
-		list-style: none;
-		
-		display: inline-block;
-
- }
-
-
-
-
-}
-@media mobile, screen and (max-width: 960px) {
-  /* line 39, ../sass/_mobile.scss */
-  section {
-    width: 90%;
-  }
-}
-
-
-
 
 
 
