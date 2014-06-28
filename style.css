@@ -1,70 +1,186 @@
-body {
-	background: #003399;
+b/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
-	
+/* This resets all styles across browsers. */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     font-size: 100%;
+     font: inherit;
+     vertical-align: baseline;
 }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+     display: block;
+}
+
+script {
+	display: none;
+}
+
+/*body layout */
+
+head {
+
+	display: none;
+}
+
+
+body {
+	background: white;
+	display: block;
+}
+
+
 
 header {
-	background: #003399;
+	background: #003366;
 	height: 30em;
 	width: 100%;
-
-
 }
 
-.logo img {
- 	
+
+.headshot img {
+ 	background: url("images/pumas.png");
   	background-size: contain;
-  	
-  	height: 150px;
+  	height: 200px;
   	margin: 0 auto;
   	position: relative;
-  	top: 5em;
-  	width: 150px;
+  	top: 4em;
+  	width: 200px;
   	display: block;
 
 }
 
- h1 {
- 	font-family: 'Maven Pro', sans-serif;
-	color: #D8D8D8;
-	padding-top: 1.3em;
-	margin: 0;
+
+div h1 {
+
+	font-family: 'Righteous', cursive;
+
+	font-size: 30px;
+	color: #ffffff;
+	
 	text-align: center;
+	margin-top: 4em;
+	margin-bottom: auto;
+	position: relative;
 	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-	font-size: 60px;
-	letter-spacing: 2px;
 }
 
-p {
-
-	color: #D8D8D8;
-	font-family: 'Crimson Text', serif;
-	margin: 0;
+h2 {
+	font-family: 'Righteous', cursive;
+	font-size: 16px;
+	color: #ffffff;
+	
 	text-align: center;
 	margin-top: 1em;
-	font-size: 18px;
-	letter-spacing: 2px;
+	margin-bottom: auto;
+	position: relative;
+	
 
 
 
 }
 
-section article img {
-	float: left;
- 	margin-left: 10em;
-  	height: 50px; 
-	width: 50px;
+ h3 {
+
+font-family: 'Rock Salt', cursive;
+color: #003366;
+	
+	text-align: center;
+	margin-top: 2em;
+	margin-bottom: auto;
+	position: relative;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+
+
+
 }
 
 
- ul li {
-		float:left;
+
+
+/*body layout ends here*/
+
+
+/*footer begins here*/
+
+
+
+
+footer nav ul li {
+		float: left;
 		list-style: none;
-		margin: 3em 0 1em 10em;
+		padding: 2em;
+		margin-left: 15em;
+	
 		display: inline-block;
-		padding: .5em;
 		
 
 }
+
+
+/*
+ * _mobile.scss
+ 
+*/
+@media mobile, screen and (max-width: 550px) {
+  /* phones */
+  /* line 12, ../sass/_mobile.scss */
+  header {
+    height: 35em;
+  }
+  /* line 15, ../sass/_mobile.scss */
+  header h1 {
+    line-height: .9em;
+    margin: 0 auto;
+    width: 80%;
+  }
+  /* line 21, ../sass/_mobile.scss */
+  header h2 {
+    margin: 20px auto 0 auto;
+    width: 300px;
+  }
+
+
+
+ footer nav ul li {
+		float:left;
+		list-style: none;
+		
+		display: inline-block;
+
+ }
+
+
+
+
+}
+@media mobile, screen and (max-width: 960px) {
+  /* line 39, ../sass/_mobile.scss */
+  section {
+    width: 90%;
+  }
+}
+
+
+
+
+
 
